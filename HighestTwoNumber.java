@@ -8,8 +8,7 @@ public class HighestTwoNumber {
         for(int i=0; i<10; i++){
             int num = sc.nextInt();
             maxSec = Math.max(maxSec, max);  
-            max = Math.max(max, num);            
-                      
+            max = Math.max(max, num);       
         }
         System.out.println(max +" "+ maxSec);
     }
